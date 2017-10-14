@@ -19,3 +19,21 @@ div.page-footer{
 	height:100%;
 	display: inline-block;
 }
+
+.sidebar-offcanvas{
+	position: absolute;
+	top: 25%;
+	right: 5%;
+	width: 10%; /* 6 columns */
+	text-align:center;
+	color:#D09457;
+}
+
+h2{
+	font-size:14pt;
+	margin-bottom:30px;
+}
+
+.sidebar-offcanvas a{
+	color:#D09457;
+}
