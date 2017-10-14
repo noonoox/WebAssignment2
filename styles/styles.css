@@ -41,3 +41,20 @@ h2{
 .jobs-description{
 	text-align:right;
 }
+
+#jumboImage{
+	margin-top:-24px;
+}
+
+#infoRow{
+	text-align:center;
+	font-size:10pt;
+	color:#D09457;
+}
+
+div#infoRow a{
+	text-align:center;
+	margin:auto;
+	font-size:10pt;
+	color:#D09457;
+}

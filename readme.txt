@@ -10,3 +10,8 @@ Incomplete:
 Major Challenges:
 
 - [FILLER]
+
+Image Sources:
+
+- https://etc.usf.edu/clipart/info/license
+- http://www.bayofislandsmarina.co.nz/marina-and-local-facilities/
