@@ -1,0 +1,21 @@
+div.page-header{
+	margin-top:50px;
+	text-align:center;
+}
+
+div.page-header a{
+	font-size:20pt;
+	margin-bottom:0px;
+	margin-top:9.5%;
+	color:#2C8F94;
+}
+
+div.page-footer{
+	text-align:center;
+	color:#2C8F94;
+}
+
+#logo{
+	height:100%;
+	display: inline-block;
+}
