@@ -25,36 +25,69 @@
             </div>
             </div>
             <div class="page-body">
-                <div class="col-xs-3">
-                    Name:<br />
-                    Email Address:<br />
-                    Phone:<br />
-                    Job role:<br />
-                    Employment type:<br />
-                    Years of experience:<br />
-                    Comment:<br />
-                </div>
-                <div class="col-xs-9">
-                    <form method="get" action="job_applications.php" >
-                        <input type="text" name="name" id="name" placeholder="full name" required autofocus /><br />
-                        <input type="text" name="email" id="email" placeholder="email" required /><br />
-                        <input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /><br />
-                        <input type="checkbox" name="bar_associate" id="bar_associate" /> Bar Associate
-                        <input type="checkbox" name="server" id="server" /> Server
-                        <input type="checkbox" name="cleaning_maintenance" id="cleaning_maintenance" /> Cleaning and Maintenance
-                        <input type="checkbox" name="manager" id="manager"/> Manager <br />
-                        <input type="radio" name="employment_type" value="fulltime" id="employment_type" /> Full time
-                        <input type="radio" name="employment_type" value="parttime" id="employment_type" /> Part time <br />
-                        <select name="years_of_experience" id="years_of_experience" size="1">
-                            <option value="0">No experience</option>
-                            <option value="1">Less than 1 year</option>
-                            <option value="2">More than 1 year</option>
-                        </select>
-                        <br />
-                        <textarea name="comments" id="comments" cols="50"></textarea><br />
-                        <input type="submit" />
-                    </form>
-                </div>
+				<form method="get" action="job_applications.php" >
+					<div>
+						<div class="col-xs-5 jobs-description">Name:</div>
+						<div class="col-xs-7">
+							<input type="text" name="name" id="name" placeholder="full name" required autofocus />
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Email Address:</div>
+						<div class="col-xs-7">
+							<input type="text" name="email" id="email" placeholder="email" required /><br />
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Phone:</div>
+						<div class="col-xs-7">
+							<input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /><br />
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Job role:</div>
+						<div class="col-xs-7">
+							<input type="checkbox" name="bar_associate" id="bar_associate" /> Bar Associate<br />
+							<input type="checkbox" name="server" id="server" /> Server<br />
+							<input type="checkbox" name="cleaning_maintenance" id="cleaning_maintenance" /> Cleaning and Maintenance<br />
+							<input type="checkbox" name="manager" id="manager"/> Manager <br />
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Employment type:</div>
+						<div class="col-xs-7">
+							<input type="radio" name="employment_type" value="fulltime" id="employment_type" /> Full time<br />
+							<input type="radio" name="employment_type" value="parttime" id="employment_type" /> Part time <br />
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Years of experience:</div>
+						<div class="col-xs-7">
+							<select name="years_of_experience" id="years_of_experience" size="1">
+								<option value="0">No experience</option>
+								<option value="1">Less than 1 year</option>
+								<option value="2">More than 1 year</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<div class="col-xs-5 jobs-description">Comment:</div>
+						<div class="col-xs-7">
+							<textarea name="comments" id="comments" cols="30"></textarea><br />
+						</div>
+					</div>
+					<div class="col-xs-5"></div>
+					<div class="col-xs-7">
+						<input type="submit" />
+					</div>
+				</form>
+				<div class="col-xs-3 col-sm-2 col-md-1 sidebar-offcanvas well" id="sidebar">
+					<h2>Contact Us</h2>
+					<p>667 Lawrence Ave.</p>
+					<p>Kelowna, BC V1Y 6L8</p>
+					<a href="call:1-888-888-8888">1-888-888-8888</a>
+					<a href="mailto:marina@marinacafe.com">marina@marinacafe.com</a>
+				</div>
 
             </div>
             <div class="page-footer">
