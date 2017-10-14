@@ -72,21 +72,24 @@
 					<form method="get" action="job_applications.php" >
 						<div>
 							<div class="col-xs-5 jobs-description">Name:</div>
-							<div class="col-xs-7">
-								<input type="text" name="name" id="name" placeholder="full name" required autofocus />
+							<div class="col-xs-4">
+								<input type="text" class="form-control" name="name" id="name" placeholder="full name" required autofocus />
 							</div>
+							<div class="col-xs-3"></div>
 						</div>
 						<div>
 							<div class="col-xs-5 jobs-description">Email Address:</div>
-							<div class="col-xs-7">
-								<input type="text" name="email" id="email" placeholder="email" required /><br />
+							<div class="col-xs-4">
+								<input type="text" class="form-control" name="email" id="email" placeholder="email" required />
 							</div>
+							<div class="col-xs-3"></div>
 						</div>
 						<div>
 							<div class="col-xs-5 jobs-description">Phone:</div>
-							<div class="col-xs-7">
-								<input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /><br />
+							<div class="col-xs-4">
+								<input type="text" class="form-control" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required />
 							</div>
+							<div class="col-xs-3"></div>
 						</div>
 						<div>
 							<div class="col-xs-5 jobs-description">Job role:</div>
@@ -107,22 +110,30 @@
 						<div>
 							<div class="col-xs-5 jobs-description">Years of experience:</div>
 							<div class="col-xs-7">
-								<select name="years_of_experience" id="years_of_experience" size="1">
-									<option value="0">No experience</option>
-									<option value="1">Less than 1 year</option>
-									<option value="2">More than 1 year</option>
-								</select>
+								<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Years of experience
+								<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="0">No experience</a><li>
+									<li><a href="0">Less than 1 year</a><li>
+									<li><a href="0">More than 1 year</a><li>
+								</ul>
 							</div>
 						</div>
 						<div>
+							<div class="col-xs-12"></div><br />
 							<div class="col-xs-5 jobs-description">Comment:</div>
-							<div class="col-xs-7">
-								<textarea name="comments" id="comments" cols="30"></textarea><br />
+							<div class="col-xs-4">
+								<textarea class="form-control" name="comments" id="comments" cols="30"></textarea>
 							</div>
+							<div class="col-xs-3"></div>
 						</div>
-						<div class="col-xs-5"></div>
-						<div class="col-xs-7">
-							<input type="submit" />
+						<div>
+							<div class="col-xs-12"></div><br />
+							<div class="col-xs-5"></div>
+							<div class="col-xs-7">
+								<button type="submit" class="btn">submit</button>
+							</div>
 						</div>
 					</form>
 				</div>
