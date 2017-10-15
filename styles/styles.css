@@ -24,14 +24,21 @@ div.page-footer{
 	position: absolute;
 	top: 25%;
 	right: 5%;
-	width: 10%; /* 6 columns */
+	width: 15%;
+	margin-top: 10%;
 	text-align:center;
-	color:#D09457;
 }
 
 h2{
 	font-size:14pt;
-	margin-bottom:30px;
+	text-align:center;
+	color:#236D70;
+}
+
+div.col-md-12 p{
+	font-size:10pt;
+	text-align:center;
+	color:#2C8F94;
 }
 
 .sidebar-offcanvas a{
