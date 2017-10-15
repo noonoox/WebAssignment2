@@ -38,8 +38,12 @@ h2{
 	color:#D09457;
 }
 
-.jobs-description{
+.right-align{
 	text-align:right;
+}
+
+.center-align{
+	text-align:center;
 }
 
 #jumboImage{
