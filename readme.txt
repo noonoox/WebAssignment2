@@ -3,13 +3,15 @@ Justin Moon, A01021964, E, jmoon47@my.bcit.ca
 
 Completed:
 
+- Everything we could find.
+
 Incomplete:
 
-- Everything
+- Nothing we're aware of.
 
 Major Challenges:
 
-- [FILLER]
+- Learning a new framework. Wasn't that hard, but it was the /hardest/ part.
 
 Image Sources:
 
