@@ -15,7 +15,7 @@ div.page-footer{
 	color:#2C8F94;
 }
 
-#logo{
+.logo{
 	height:100%;
 	display: inline-block;
 }
@@ -58,13 +58,13 @@ div.col-md-12 p{
 	max-width:80%;
 }
 
-#infoRow{
+div.infoRow{
 	text-align:center;
 	font-size:10pt;
 	color:#D09457;
 }
 
-div#infoRow a{
+div.infoRow a{
 	text-align:center;
 	margin:auto;
 	font-size:10pt;
